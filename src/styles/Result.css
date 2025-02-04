@@ -17,13 +17,8 @@
   margin: 10px 0;
 }
 
-.feedback-message {
-  font-size: 1.2rem;
-  color: #4caf50;
-  margin-top: 20px;
-}
-
-button {
+/* .restart-button にしっかり適用 */
+.restart-button {
   background-color: #f44336;
   color: white;
   padding: 10px 20px;
@@ -31,12 +26,13 @@ button {
   cursor: pointer;
   font-size: 1rem;
   transition: transform 0.3s;
+  border: none;
 }
 
-button:hover {
+.restart-button:hover {
   background-color: #e53935;
 }
 
-button:active {
+.restart-button:active {
   transform: scale(0.98);
 }

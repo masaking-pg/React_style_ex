@@ -19,7 +19,7 @@ function Question({ quiz, onAnswer, currentIndex, total }: QuestionProps) {
     <div className="question-container">
       <h2>問題 {currentIndex} / {total} - 難易度: {quiz.difficulty}</h2>
       <h3>{quiz.question}</h3>
-      <div className="options">
+      <div className="options"> 
         {shuffledOptions.map((option, index) => (
           <button key={index} className="option-button" onClick={() => onAnswer(option)}>
             {option}
